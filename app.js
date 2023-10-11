@@ -11,7 +11,7 @@ const students = [
 ]
 
 app.get('/', (req, res) => {
-    res.json({ mensaje: 'INICIO' });
+    res.json({ mensaje: 'INICIO API REST' });
   });
 
 // Ruta de ejemplo
